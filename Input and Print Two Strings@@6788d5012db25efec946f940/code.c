@@ -3,9 +3,9 @@
 
 
 int main() {
-    char hello[100];
-    char world[100];
-    scanf("%c %c",&hello,&world);
-    printf("You entered:%c",hello,world);
+    char a[100];
+    char b[100];
+    scanf("%c %c",&a,&b);
+    printf("You entered:%c",a,b);
         return 0;
 }
