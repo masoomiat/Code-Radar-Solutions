@@ -6,7 +6,7 @@ int main() {
     printf("Name: %s\n",a);
     int age;
     scanf("%d",&age);
-    printf("Age: %s\n",age);
+    printf("Age: %d\n",age);
      char b[100];
     scanf("%s",&b);
     printf("Hobby: %s\n",b);
