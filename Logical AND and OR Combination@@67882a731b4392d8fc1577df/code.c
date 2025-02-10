@@ -7,7 +7,7 @@ int main() {
     {
         printf("True");
     }
-    elif((a>0)||(b>0))
+    else if((a>0)||(b>0))
     {
         printf("True");
     }
