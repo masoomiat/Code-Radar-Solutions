@@ -1,12 +1,11 @@
-#include <stdio.h>
-
-int main() {
-    int N= 5;
-    for (int i = 0; i < N; i++) {
-
-        // Inner loop to print the * in each row
-        for (int j = 0; j < N - i; j++)
-            printf("* ");
-        printf("\n");
+#include<stdio.h>
+int main(){
+    int N;
+    for(int N=1;1>0;1--){
+    for(int m=1;m>0;m--){
+        printf("* ");
     }
+    printf("\n");
+    }
+    return 0;
 }
