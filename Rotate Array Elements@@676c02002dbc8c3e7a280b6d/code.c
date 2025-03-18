@@ -33,18 +33,18 @@ int main() {
 
     // Read the array elements
     for (int i = 0; i < n; i++) {
-        scanf("%d\n", &arr[i]);
+        scanf("\n%d", &arr[i]);
     }
 
     // Read the value of K
-    scanf("%d\n", &k);
+    scanf("\n%d", &k);
 
     // Rotate the array
     rotateArray(arr, n, k);
 
     // Print the rotated array
     for (int i = 0; i < n; i++) {
-        printf("%d\n ", arr[i]);
+        printf("\n%d", arr[i]);
     }
 
     return 0;
