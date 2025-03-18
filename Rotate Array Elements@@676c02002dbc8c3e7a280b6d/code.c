@@ -44,6 +44,7 @@ int main() {
 
     // Print the rotated array
     for (int i = 0; i < n; i++) {
+        if (i != 0) printf(" "); 
         printf("\n%d", arr[i]);
     }
 
