@@ -28,7 +28,7 @@ int main() {
     int n, k;
     
     // Read the size of the array
-    scanf("\n%d", &n);
+    scanf("%d\n", &n);
     int arr[n];
 
     // Read the array elements
