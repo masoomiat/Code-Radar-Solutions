@@ -28,24 +28,23 @@ int main() {
     int n, k;
     
     // Read the size of the array
-    scanf("%d\n", &n);
+    scanf("%d", &n);
     int arr[n];
 
     // Read the array elements
     for (int i = 0; i < n; i++) {
-        scanf("\n%d", &arr[i]);
+        scanf("%d", &arr[i]);
     }
 
     // Read the value of K
-    scanf("\n%d", &k);
+    scanf("%d", &k);
 
     // Rotate the array
     rotateArray(arr, n, k);
 
-    // Print the rotated array
+    // Print the rotated array, each element on a new line
     for (int i = 0; i < n; i++) {
-        if (i != 0) printf(" "); 
-        printf("\n%d", arr[i]);
+        printf("%d\n", arr[i]);
     }
 
     return 0;
