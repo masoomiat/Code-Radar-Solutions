@@ -8,7 +8,10 @@ int main(){
     }
     else if(a<=100)
     {
-        printf("Out of Range");
+        printf("In Range");
+    }
+    else{
+        printf("Out of Range")
     }
     return 0;
 }
